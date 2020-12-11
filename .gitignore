@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+README.html
+.DS_Store
+
+docs/notebook/**.html
+docs/notebook/**.pdf
+
+docs/protocol/**.html
+docs/protocol/**.pdf
