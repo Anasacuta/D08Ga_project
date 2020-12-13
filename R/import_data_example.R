@@ -1,15 +1,14 @@
-# Transformation des données brutes en données retravaillées
+# Importation et remaniement des données brutes
 
-## Packages utilisés
+# Packages utilisés
 SciViews::R
 library(purrr)
 library(fs)
 
-## Importation des données brutes simulées ----
-## constituées de 3 fichiers obtenus avec le même instrument fictif
-## sur 3 individus différents.
-## Le nom du fichier comprend l'identifiant de l'individu et la date de mesure
-## On souhaite combiner ces trois jeu de données afin de les comparer.
+# Importer les données brutes (simulées et sous forme .csv dans data/raw)
+# Trois fichiers obtenus avec un instrument fictif sur des individus différents
+# Le nom du fichier comprend l'identifiant de l'individu et la date de mesure
+# On souhaite combiner ces trois jeux de données afin de les comparer
 (dir <- dir_ls("data/raw/"))
 
 read_raw_data <- function(path) {
@@ -21,11 +20,11 @@ read_raw_data <- function(path) {
 
 data <- map_dfr(dir, read_raw_data)
 
-## Renommer les variables ----
+# Renommer les variables
 #data <- rename(data, )
 
-## Ajout de labels et unités fictives à chaque colonne du tableau ----
+# Ajouter les labels et unités (fictifs ici) à chaque colonne du tableau
 #data <- labelise(data, label = list(), units = list())
 
-## Sauvegarde du fichier retravaillées ----
-write(data, file = "data/data.rds", type = "rds", compress = "xz")
+# Sauver le jeu de donné remanié en .rds compressé
+write$rds(data, file = "data/data.rds", compress = "xz")
