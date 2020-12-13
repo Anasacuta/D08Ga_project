@@ -6,11 +6,11 @@
 README.html
 .DS_Store
 
-docs/notebook/**.html
-docs/notebook/**.pdf
+results/*.html
+results/*.pdf
 
-docs/protocol/**.html
-docs/protocol/**.pdf
+reports/*.html
+reports/*.pdf
 
-docs/report/**.html
-docs/report/**.pdf
+protocols/*.html
+protocol/*.pdf
