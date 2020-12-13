@@ -1,11 +1,11 @@
 ---
-title: "Protocole de l'expérience ...."
+title: "Protocole de l'expérience"
 author: "___"
-date: "12/11/2020"
+date: "___"
 output: html_document
 ---
 
 
-<!---
-Ce document doit contenir le protocole complet afin de reproduire une expérience. 
----->
+<!--
+Ce document doit contenir le protocole complet expliquant comment l'expérience a été réalisée. C'est en quelques sortes la mise au net du contenu du cahier de laboratoire. Il doit également expliquer les différentes étapes et dans quel ordre exécuter le code des différents fichiers scripts R, notebooks ou documents R Markdown .Rmd afin de permettre de reproduire les analyses. Renommez le fichier et indiquez un titre évocateurs du contenu. Dupliquez-le si vous devez décrire plusieurs protocoles différents.
+-->

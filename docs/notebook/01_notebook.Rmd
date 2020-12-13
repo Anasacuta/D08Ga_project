@@ -1,10 +1,10 @@
 ---
-title: "Carnet de notes ..."
+title: "Carnet de notes"
 author: "___"
 date: "...."
 output: html_document
 ---
 
-<!---
-Ce document doit comprendre l'analyse des données obtenues vu 
---->
+<!--
+Ce document contient une trace des différentes pistes investiguées durant les analyses des données, brièvement commentées. Renommez ce fichier et donnez-lui un titre qui évoquent le contenu. Si plusieurs analyses différentes sont réalisées (souvent, mais pas obligatoirement, il s'agit d'analyse des jeux de données différents),dupliquez ce fichier pour contenir chaque analyse dans son propre fichier. Lorsque le nombre d'étapes dans l'analyse est grand, vous pouvez également la scinder en plusieurs fichier. Numéroter les fichiers `01_...`, `02_...`, etc. aide à en comprendre la succession logique rien qu'en lisant le nom des fichiers.
+-->

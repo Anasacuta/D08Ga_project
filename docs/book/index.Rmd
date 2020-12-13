@@ -1,23 +1,21 @@
 --- 
-title: "Titre du projet de recherche"
-author: "auteur"
+title: "Titre du projet"
+author: "___"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "Exemple minimal d'utilisation de {bookdown} pour écrire un ouvrage plus conséquent. Le format de sortie est ici bookdown::gitbook."
 ---
 
 # Résumé {-}
 
 Cette section comprend un résumé du travail.
 
-
 ```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
+# Créer automatiquement un fichier .bib pour les packages R
+knitr::write_bib(c(.packages(), 'bookdown', 'knitr', 'rmarkdown'),
+  'packages.bib')
 ```

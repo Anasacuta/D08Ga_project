@@ -1,21 +1,22 @@
 # Introduction {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+Introduisez votre travail ici...
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+Vous pouvez indiquer une étiquette aux titres de chapitres et sections en indiquant `{#label}` derrière le titre, comme ici par exemple `{#intro}`. Ensuite, vous pouvez y faire référence à l'aide de la construction suivante\ : \@ref(intro). Si vous ne précisez pas une étiquette comme ceci, chaque titre en recevra une automatiquement, à partir du titre du chapitre ou de la section. 
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
+Les figures et les tables qui sont accompagnées de légendes sont placés automatiquement dans les environnements `figure` et `table` respectivement.
+
+```{r nice-fig, fig.cap='Ma belle figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 plot(pressure, type = 'b', pch = 19)
 ```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+Pour faire référence à une figure, vous utilisez le libellé de son chunk préfixé de `fig:`, par exemple, voir Fig. \@ref(fig:nice-fig). De même, vous pouvez aussi vous référer aux tableau générés à l'aide de `knitr::kable()`, par exemple, voir Table \@ref(tab:nice-tab).
 
 ```{r nice-tab, tidy=FALSE}
 knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
+  head(iris, 20), caption = 'Mon magnifique tableau !',
   booktabs = TRUE
 )
 ```
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+Vous pouvez également écrire des citations bibliographiques. Par exemple, nous utilisons le package {bookdown} [@R-bookdown] pour présenter ce travail, qui a été compilé par ailleurs à partir de R Markdown et {knitr} [@xie2015].

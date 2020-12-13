@@ -6,7 +6,7 @@ language:
     fig: 'Figure '
     tab: 'Tableau '
     eq: 'Équation '
-    thm: 'Théoreme '
+    thm: 'Théorème '
     lem: 'Lemme '
     cor: 'Corollaire '
     prp: 'Proposition '

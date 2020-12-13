@@ -1,7 +1,6 @@
-# Résultats
+# Résultats {#results}
 
-Cette section comprend les résulats de votre recherche. Il s'agit donc d'une sythèse des éléments les plus importants de vos notebook.
-
+Cette section comprend les résultats de votre recherche. Il s'agit donc d'une synthèse des éléments les plus importants de vos notebooks.
 
 ## Première section de mes résultats
 
