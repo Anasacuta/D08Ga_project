@@ -1,0 +1,22 @@
+# Introduction {#intro}
+
+Introduisez votre travail ici...
+
+Vous pouvez indiquer une étiquette aux titres de chapitres et sections en indiquant `{#label}` derrière le titre, comme ici par exemple `{#intro}`. Ensuite, vous pouvez y faire référence à l'aide de la construction suivante\ : voir section \@ref(intro). Si vous ne précisez pas une étiquette comme ceci, chaque titre en recevra une automatiquement, à partir du titre du chapitre ou de la section. 
+
+Les figures et les tables qui sont accompagnées de légendes sont placés automatiquement dans les environnements `figure` et `table` respectivement.
+
+```{r nice-fig, fig.cap='Ma belle figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+plot(pressure, type = 'b', pch = 19)
+```
+
+Pour faire référence à une figure, vous utilisez le libellé de son chunk préfixé de `fig:`, par exemple, voir Fig. \@ref(fig:nice-fig). De même, vous pouvez aussi vous référer aux tableau générés à l'aide de `knitr::kable()`, par exemple, voir Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Mon magnifique tableau !',
+  booktabs = TRUE
+)
+```
+
+Vous pouvez également écrire des citations bibliographiques. Par exemple, nous utilisons le package {bookdown} [@R-bookdown] pour présenter ce travail, qui a été compilé par ailleurs à partir de R Markdown et {knitr} [@xie2015].

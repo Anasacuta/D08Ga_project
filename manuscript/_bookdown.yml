@@ -1,0 +1,24 @@
+book_filename: "D08Ga_project"
+delete_merged_file: true
+new_session: yes
+output_dir: "../docs"
+language:
+  label:
+    fig: 'Figure '
+    tab: 'Tableau '
+    eq: 'Équation '
+    thm: 'Théorème '
+    lem: 'Lemme '
+    cor: 'Corollaire '
+    prp: 'Proposition '
+    cnj: 'Conjecture '
+    def: 'Définition '
+    exm: 'Exemple '
+    exr: 'Exercice '
+    proof: 'Preuve. '
+    remark: 'Remarque. '
+    solution: 'Solution. '
+  ui:
+    edit: Editer
+    chapter_name: 'Chapitre '
+    appendix_name: 'Appendice '

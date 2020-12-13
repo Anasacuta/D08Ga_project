@@ -1,0 +1,42 @@
+---
+title: "Titre du rapport ici"
+author: "___"
+date: "___"
+output: pdf_document
+---
+
+<!-- Ceci est un exemple de rapport sous forme d'un document R Markdown. Par exemple, vous voulez communiquer les résultats d'une expérience à l'ensemble de l'équipe, ou à votre boss. Vous pourrez utiliser alors un tel document R Markdown. Ce document peut être converti en .html, .pdf, .doc ou encore, en dias de présentation ou en poster (moyennant une présentation différente et adaptée, bien sûr). Vous pouvez aussi utiliser un des nombreux templates disponibles dans R Markdown ou les packages R annexes pour compiler le document directement en manuscrit à envoyer à un journal scientifique. -->
+
+<!-- Dans le cadre de l'exercice (module 8 de SDD III), nous n'utiliserons pas ce document qui est en tous point semblable aux rapports que vous avez réalisés jusqu'ici. Nous le laissons ici pour mémoire afin que vous compreniez bien que ce type de rapport reste pleinement utilisable dans un gros projet -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+<!-- Synthèse bibliographique en relation avec la question posée ici -->
+
+## But
+
+<!-- Le but résule la question scientifique posée ici -->
+
+## Matériel et méthodes
+
+<!-- la section matériel et méthodes est la mise au net du protocole correspondant qui se trouve dans `../protocols`. -->
+
+## Résultats
+
+<!-- Vous reprenez ici et mettez au net les résultats les plus intéressants à partir de vos différents carnets de notes qui sont dans `../notebooks`.
+
+## Discussion
+
+<!-- vour reprenez les résultats, en exposez les conséquences et vous les comparez aux résultats obtenus par d'autres chercheurs à partir de la littérature scientifique disponible. -->
+
+## Conclusions et perspectives
+
+<!-- Toute cela mène à quoi exactement ? -->
+
+## Références
+
+<!-- Cette section reprend les références bibliographiques citées dans votre document -->
