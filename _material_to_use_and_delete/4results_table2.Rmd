@@ -1,0 +1,21 @@
+---
+title: "Table 2"
+output: html_notebook
+---
+
+<!-- Here we pretend that this Table is constructed from an R analysis. So, it is contained in a data frame -->
+
+```{r, echo = FALSE}
+table2 <- tibble::tribble(
+  ~"Measured (x)",    ~"Estimated (y)",      ~"Allometry", ~"R^2^", ~"Std err log(y)", ~Validity,
+  "Diameter (mm)",    "Fresh weight (g)",    "y = 5.50 10^-4^ x^2.94^", 0.997, 0.037, "10 < x < 60",
+  "Diameter (mm)",    "SIW (g)",             "y = 2.40 10^-4^ x^2.70^", 0.986, 0.053, "10 < x < 60",
+  "Fresh weight (g)", "Diameter (mm)",       "y = 12.70 x^0.35^",       0.995, 0.011, "0.5 < x < 90",
+  "Fresh weight (g)", "SIW (g)",             "y = 0.22 x^0.95^",        0.994, 0.034, "0.5 < x < 90",
+  "SIW (g)",          "Diameter (mm)",       "y = 22.1 x^0.37^",        0.984, 0.019, "0.1 < x < 15",
+  "SIW (g)",          "Fresh weight (g)",    "y = 4.95 x^1.05^",        0.994, 0.036, "0.1 < x < 15",
+  "SIW (g)",          "Skeleton (dry w. g)", "y = 1.56 x",              0.998, 0.021, "0.1 < x < 15",
+  "SIW (g)",          "Soma (dry w. g)",     "y = 1.74 x^0.98^",        0.999, 0.010, "0.1 < x < 15"
+)
+knitr::kable(table2, caption = "...")
+```
