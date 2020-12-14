@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## But
 
-<!-- Le but résule la question scientifique posée ici -->
+<!-- Le but résume la question scientifique posée ici -->
 
 ## Matériel et méthodes
 
@@ -27,11 +27,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Résultats
 
-<!-- Vous reprenez ici et mettez au net les résultats les plus intéressants à partir de vos différents carnets de notes qui sont dans `../notebooks`.
+<!-- Vous reprenez ici et mettez au net les résultats les plus intéressants à partir de vos différents carnets de notes qui sont dans `../results`.
 
 ## Discussion
 
-<!-- vour reprenez les résultats, en exposez les conséquences et vous les comparez aux résultats obtenus par d'autres chercheurs à partir de la littérature scientifique disponible. -->
+<!-- Vous reprenez les résultats, en exposez les conséquences et vous les comparez aux résultats obtenus par d'autres chercheurs à partir de la littérature scientifique disponible. -->
 
 ## Conclusions et perspectives
 
