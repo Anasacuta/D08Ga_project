@@ -16,7 +16,7 @@ Cette assignation vous permettra de nous démontrer que vous avez acquis les com
 
 - Rédiger un protocole d'expérience complet, clair mais concis
 
-- Être capable d'organiser, d'importer et de pré-traiter correctement des données brutes
+- Être capable d'organiser, d'importer et de prétraiter correctement des données brutes
 
 - Organiser ses analyses dans un ou plusieurs carnets de notes (notebooks) et les commenter de manière appropriée pour qu'elles soient compréhensibles
 
@@ -30,13 +30,13 @@ Cette assignation vous permettra de nous démontrer que vous avez acquis les com
 
 ## Consignes 
 
-Vous allez utilisez l'article mis à votre dispositon dans `_original_publication` afin de réaliser un projet de recherche en 3 étapes. Les différents éléments constitutifs de la publication en Markdown sont dans `_material_to_use_and_delete`.
+Vous allez utiliser l'article mis à votre disposition dans `_original_publication` afin de réaliser un projet de recherche en 3 étapes. Les différents éléments constitutifs de la publication en Markdown sont dans `_material_to_use_and_delete`.
 
 ### Traitement des données
 
 - Rédiger un protocole d'expérience complet, clair mais concis. 
 
-En utilisant le matériel et méthodes de l'article, les données brutes et les pages d'aides du jeu de données urchin_bio (disponible via l'instruction `?data.io::urchin_bio` dans la console R), rédigez un protocole d'expérience complet, clair et concis. Ce documents doit être au format Rmd et placé dans la dossiers protocols.
+En utilisant le matériel et méthodes de l'article, les données brutes et les pages d'aides du jeu de données urchin_bio (disponible via l'instruction `?data.io::urchin_bio` dans la console R), rédigez un protocole d'expérience complet, clair et concis. Ce document doit être au format .Rmd et placé dans la dossier protocols.
 
 - Obtenir les données retravaillées en partant des données brutes.
 
@@ -46,13 +46,13 @@ En utilisant les données brutes (`data/raw/`) et les pages d'aides du jeu de do
 
 - Rédiger un court carnet de notes
 
-En utilisant les données obtenues lors de l'étape précédente, réalisez un carnet de notes. Ce carnet de notes doit proposer 2 graphiques cohérents avec le but de la recherche. CHaque graphique doit être commenté. Ce fichier doit se trouver dans le dossier results.
+En utilisant les données obtenues lors de l'étape précédente, réalisez un carnet de notes. Ce carnet de notes doit proposer 2 graphiques cohérents avec le but de la recherche. Chaque graphique doit être commenté. Ce fichier doit se trouver dans le dossier results.
 
 ### Synthèse de l'information
 
 - Réalisation d'un article scientifique.
 
-Vous allez utiliser les fragments du la publication placé dans le dossier _material_to_use_and_delete afin de reproduire le publication. Vous allez utilisez un template du package {rticles}. 
+Vous allez utiliser les fragments de la publication placé dans le dossier _material_to_use_and_delete afin de reproduire le publication. Vous allez utilisez un template du package {rticles}. 
 
 Vous choisirez [PeerJ Life & Environment](https://peerj.com/sections/). Les instructions aux auteurs sont [ici](https://peerj.com/about/author-instructions/), mais grâce au format R Markdown correspondant, l'essentiel de la mise en forme sera réalisée par RStudio lui-même!
 
@@ -60,12 +60,12 @@ Pour générer votre template, suivez les instructions suivantes :
 
 `File -> New Files -> R Markdown... -> From Template -> PeerJ Journal Article`
 
-Donnez un nom et un position au dossier qui va comprendre l'ensemble des fichier pour réaliser cet articles. Ce template comprend de nombreuses informations pour vous aider à gérer les légendes des figures et des tableaux ainsi que des références associées. Utilisez le fichier bibliography.bib afin de gérer automatique la bibliographie de l'article (astuce : `Addins -> Insert Citations`). 
+Donnez un nom et une position au dossier qui va comprendre l'ensemble des fichiers pour réaliser cet article. Ce template comprend de nombreuses informations pour vous aider à gérer les légendes des figures et des tableaux ainsi que des références associées. Utilisez le fichier bibliography.bib afin de gérer automatique la bibliographie de l'article (astuce : `Addins -> Insert Citations`). 
 
 Pour générer votre article scientifique, il suffit de cliquer sur **Knit**.
 
 - Réalisation d'un manuscrit de recherche
 
-Vous allez utilisez les mêmes fragments que pour l'article scientifique et réaliser un manuscrit grâce au package {bookdown}. Vous devez compléter les fichiers du dossier manuscrit pour cela. Assurez vous que la numérotation, les légendes et les références aux figures et aux tableaux soient correctes. 
+Vous allez utiliser les mêmes fragments que pour l'article scientifique et réaliser un manuscrit grâce au package {bookdown}. Vous devez compléter les fichiers du dossier manuscrit pour cela. Assurez vous que la numérotation, les légendes et les références aux figures et aux tableaux soient correctes. 
 
 Chaque section du manuscrit correspond à un fichier au format Rmd différent. Pour compiler l'ouvrage, vous pourrez utiliser l'outil **Build Book** dans l'onglet **Build** de RStudio.
